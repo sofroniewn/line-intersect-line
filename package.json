@@ -1,5 +1,5 @@
 {
-  "name": "line-to-line",
+  "name": "line-intersect-line",
   "version": "0.0.1",
   "description": "Determines if two lines intersect",
   "main": "index.js",
