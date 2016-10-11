@@ -3,7 +3,7 @@ var assert = require('assert')
 var linetoline = require('../index.js')
 
 function close(x, y) {
-  return (x - y) < .01 & (x - y) > -.01 
+  return (x - y) < .01 & (x - y) > -.01
 }
 
 function check(x, y) {
@@ -15,11 +15,11 @@ lineA = [[0, 0], [0, 1]]
 lineB = [[-1, 0.5], [1, 0.5]]
 result = linetoline(lineA, lineB)
 console.log(result)
-check(result.point, [0, 0.5])
+check(result.intersection, [0, 0.5])
 
 
 lineA = [[0, -10], [0, 1]]
 lineB = [[-1, 0.5], [1, 0.5]]
 result = linetoline(lineA, lineB)
 console.log(result)
-check(result.point, [0, 0.5])
+check(result.intersection, [0, 0.5])

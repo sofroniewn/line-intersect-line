@@ -16,6 +16,7 @@
   "author": "Nicholas Sofroniew",
   "license": "MIT",
   "dependencies": {
-    "mathjs": "^2.5.0"
+    "mathjs": "^2.5.0",
+    "ray-to-line": "0.0.1"
   }
 }
