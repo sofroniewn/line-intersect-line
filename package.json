@@ -1,0 +1,21 @@
+{
+  "name": "line-to-line",
+  "version": "0.0.1",
+  "description": "Determines if two lines intersect",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "ray",
+    "line"
+  ],
+  "author": "Nicholas Sofroniew",
+  "license": "MIT",
+  "dependencies": {
+    "mathjs": "^2.5.0"
+  }
+}
